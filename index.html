@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <img id="gif" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmtuZ1mYZMjzhgNIMIlY5tbDmYnPQnpd1-w8YuzY-4UAibXeMz_BMIZ1LlxrwpPxztqns&usqp=CAU" alt="gif">
+        <p id="title">Ask about me anything u want</p>
+        <p id="answer"></p>
+        <div id="btn-container">  
+            <button onclick="switchtoData1()" id="backswitch">Back</button>
+            <button onclick="switchtoData2()" id="switch">Next</button>
+        </div>
+        
+
+    
+
+        <ul id="list1">
+            <li>
+                <button onclick="Rizz(1)" class="btn" btn-index="1">Where are you from?</button>
+                <audio class="mp3" audio-index="1" controls  controlsList="nodownload"  src="audio\test.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(2)" class="btn" btn-index="2">What do you do for a living?</button>
+                <audio class="mp3" audio-index="2" controls  controlsList="nodownload" src="audio\test1.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(3)" class="btn" btn-index="3">What's your favorite hobby?</button>
+                <audio class="mp3" audio-index="3" controls  controlsList="nodownload" src="audio\test8.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(4)" class="btn" btn-index="4">What's your favorite flower?</button>
+                <audio class="mp3" audio-index="4" controls  controlsList="nodownload" src="audio\test2.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(5)" class="btn" btn-index="5">What's your favorite time of day?</button>
+                <audio class="mp3" audio-index="5" controls  controlsList="nodownload" src="audio\lovestory.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(6)" class="btn" btn-index="6">Do you play any sports?</button>
+                <audio class="mp3" audio-index="6" controls  controlsList="nodownload" src="audio\test3.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(7)" class="btn" btn-index="7">What's your favorite food?</button>
+                <audio class="mp3" audio-index="7" controls  controlsList="nodownload" src="audio\Yummy.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(8)" class="btn" btn-index="8">What's your favorite thing to do?</button>
+                <audio class="mp3" audio-index="8" controls  controlsList="nodownload" src="audio\test4.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(9)" class="btn" btn-index="9">Do you like to travel?</button>
+                <audio class="mp3" audio-index="9" controls  controlsList="nodownload" src="audio\bigplan.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(10)" class="btn" btn-index="10">What's your favorite music genre?</button>
+                <audio class="mp3" audio-index="10" controls  controlsList="nodownload" src="audio\dance.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(11)" class="btn" btn-index="11">What's your favorite drink?</button>
+                <audio class="mp3" audio-index="11" controls  controlsList="nodownload" src="audio\test5.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz(12)" class="btn" btn-index="12">What's your favorite color?</button>
+                <audio class="mp3" audio-index="12" controls  controlsList="nodownload" src="audio\sky.mp3" alt="audio"></audio>
+            </li>
+        </ul>
+
+        <ul id="list2">
+            <li>
+                <button onclick="Rizz2(1)" class="btn" btn-index="1">Can you handle a girl like me?</button>
+                <audio class="mp3" audio-indexx="1" controls controlsList="nodownload"  src="audio\test6.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(2)" class="btn" btn-index="2">What if I have high standards?</button>
+                <audio class="mp3" audio-indexx="2" controls  controlsList="nodownload" src="audio\obssedwithu.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(3)" class="btn" btn-index="3">What makes you think you can keep up with me?</button>
+                <audio class="mp3" audio-indexx="3" controls  controlsList="nodownload" src="audio\flawandsin.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(4)" class="btn" btn-index="4">Why should I give you a chance?</button>
+                <audio class="mp3" audio-indexx="4" controls  controlsList="nodownload" src="audio\test7.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(5)" class="btn" btn-index="5">What if I expect effort?</button>
+                <audio class="mp3" audio-indexx="5" controls  controlsList="nodownload" src="audio\anotherside.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(6)" class="btn" btn-index="6">What if I have a lot of demands?</button>
+                <audio class="mp3" audio-indexx="6" controls  controlsList="nodownload" src="audio\woof.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(7)" class="btn" btn-index="7">Can you handle my sense of humor?</button>
+                <audio class="mp3" audio-indexx="7" controls  controlsList="nodownload" src="audio\wanabeyour.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(8)" class="btn" btn-index="8">What makes you different from other guys?</button>
+                <audio class="mp3" audio-indexx="8" controls  controlsList="nodownload" src="audio\sobig.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(9)" class="btn" btn-index="9">What if Im very independent?</button>
+                <audio class="mp3" audio-indexx="9" controls  controlsList="nodownload" src="audio\amazing.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(10)" class="btn" btn-index="10">What if I don’t fall easily?</button>
+                <audio class="mp3" audio-indexx="10" controls  controlsList="nodownload" src="audio\wating.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(11)" class="btn" btn-index="11">Are you ready for a girl who knows what she wants?</button>
+                <audio class="mp3" audio-indexx="11" controls  controlsList="nodownload" src="audio\confidence.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz2(12)" class="btn" btn-index="12">Don't you have any ego or self-respect?</button>
+                <audio class="mp3" audio-indexx="12" controls  controlsList="nodownload" src="audio\allineed.mp3" alt="audio"></audio>
+            </li>
+        </ul>
+        <ul id="list3">
+            <li>
+                <button onclick="Rizz3(1)" class="btn" btn-index="1">Reason 1</button>
+                <audio class="mp3" audio-index3="1" controls  controlsList="nodownload" src="audio\test8.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz3(2)" class="btn" btn-index="2">Reason 2</button>
+                <audio class="mp3" audio-index3="2" controls  controlsList="nodownload" src="audio\ificant.mp3" alt="audio"></audio>
+            </li>
+            <li>
+                <button onclick="Rizz3(3)" class="btn" btn-index="3">Reason 3</button>
+                <audio class="mp3" audio-index3="3" controls  controlsList="nodownload" src="audio\test9.mp3" alt="audio"></audio>
+            </li>
+        </ul>
+   
+    </div>
+    <div>
+    <script src="test.js"></script>
+    </div>
+</body>
+</html>
+
+<!--  
+Just tall enough to reach for the stars, but still down to earth enough to reach for your hand."
+
+"What do you do for a living?"
+"I make dreams come true, starting with meeting you."
+
+"What's your favorite hobby?"
+"Finding new and exciting ways to impress you."
+
+"Do you have any pets?"
+"Not yet, but I wouldn't mind adopting a cuddle buddy. You interested?"
+
+"Where are you from?"
+"I’m from a place where the weather's always perfect—because I bring the sunshine with me."
+
+"What are your plans for the weekend?"
+"Hopefully spending some time getting to know you better."
+
+"What's your favorite food?"
+"Anything that comes with a side of your company."
+
+"Do you like to travel?"
+"Absolutely! But I'd love to travel through life with someone special like you."
+
+"What's your favorite movie?"
+"Something romantic, but I'm more interested in our love story."
+
+""
+"Yes, I'm a pro at winning hearts."
+
+"What's your favorite music genre?"
+"I like a bit of everything, especially if it involves dancing with you."
+
+Q: What's your favorite color?
+
+    A: "Blue, because every time I see you, I get lost in your eyes."
+    "Blue, because like the sky, my love for you has no limits."
+
+Q: What's your favorite animal?
+
+    A: "Dolphins, because like them, you're intelligent, beautiful, and make everyone around you smile."
+
+Q: What's your favorite hobby?
+
+    A: "Photography, because I can't help but picture us together."
+
+Q: What's your favorite season?
+
+    A: "Spring, because you bring a fresh bloom to my life."
+
+Q: What's your favorite movie genre?
+
+    A: "Romantic comedies, because every moment with you feels like a happy ending."
+
+Q: What's your favorite drink?
+
+    A: "Coffee, because you keep me awake and make my heart race."
+
+Q: What's your favorite dessert?
+
+    A: "Chocolate, because you're irresistible and make everything sweeter."
+
+Q: What's your favorite place to travel?
+
+    A: "Anywhere with a beautiful view, but you're the most breathtaking sight I've ever seen."
+
+Q: What's your favorite flower?
+
+    A: "Roses, because you deserve a bouquet for brightening my day."
+
+Q: What's your favorite time of day?
+
+    A: "Sunset, because it reminds me of the glow you bring into my life."
+
+
+
+Question: "Can you handle a girl like me?"
+
+    Response: "Handle? I prefer the term 'appreciate'. Challenge accepted!"
+
+Question: "Are you sure you're up for the challenge?"
+
+    Response: "I've faced tougher bosses in video games. Bring it on!"
+
+Question: "What makes you think you can keep up with me?"
+
+    Response: "I run on caffeine and ambition. Let's see who tires first!"
+
+Question: "What if I have high standards?"
+
+    Response: "Good thing I aim high. How about we set a new standard together?"
+
+Question: "Why should I give you a chance?"
+
+    Response: "Because I believe every great story starts with a leap of faith. Let's write ours."
+
+Question: "What if I have a wild side?"
+
+    Response: "Then we’re a perfect match. My middle name might as well be Adventure!"
+
+    Question: "Do you think you can keep up with my lifestyle?"
+
+    Response: "I don't just keep up, I lead the way. Let's see who gets tired first!"
+
+Question: "What if I'm too much for you to handle?"
+
+    Response: "Too much? I see it as just the right amount of excitement."
+
+Question: "Are you ready for the unexpected?"
+
+    Response: "Unexpected is my middle name. Let's embrace the surprises together."
+
+Question: "How do you deal with a strong-willed woman?"
+
+    Response: "I admire strength. Together, we can conquer anything."
+
+Question: "What if I have a lot of demands?"
+
+    Response: "I love a good challenge. Meeting your demands sounds like a fun mission."
+
+Question: "Can you handle my sense of humor?"
+
+    Response: "I thrive on laughter. Let’s see if you can handle mine!"
+
+Question: "What makes you different from other guys?"
+
+    Response: "I’m not just any guy; I’m the one who sees you as my equal partner in adventure."
+
+Question: "What if I’m very independent?"
+
+    Response: "Independence is attractive. Two strong individuals make an unstoppable team."
+
+Question: "Can you deal with my busy schedule?"
+
+    Response: "Busy people are the most interesting. Let’s make every moment count."
+
+Question: "Are you ready for a girl who knows what she wants?"
+
+    Response: "Absolutely. Confidence is incredibly attractive, and I know what I want too."
+
+
+-->
+
+
+
+

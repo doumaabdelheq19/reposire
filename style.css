@@ -1,0 +1,181 @@
+body {
+    background-image: url("https://i.gifer.com/3jni.gif");
+    background-color: pink;
+}
+
+#container {
+    margin: 5% 5% 10% 10%;
+    padding-bottom: 5%;
+    border: 4px solid;
+    background-color: rgb(243, 201, 208);
+    display: flow-root;
+    max-width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gif {
+   
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+#title {
+
+    font-size: large;
+}
+
+#answer {
+    display: none;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+}
+
+.pRizz {
+    display: none;
+}
+
+#list1 {
+   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%; 
+    clear: both;
+}
+
+.btn {
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
+    border-color: red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: lightpink;
+}
+
+.mp3 {
+    display: none;
+}
+
+.mp32 {
+    display: none;
+}
+
+#btn-container {
+    display: flex;
+    width:100%
+}
+
+#switch {
+    margin-left: 80%;
+ width: 100px;
+    height: 30px;
+    margin-bottom: 3%;
+
+}
+
+#list2 {
+   
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%; 
+}
+
+#backswitch {
+    display: none;
+   width:100px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#list3 {
+width: 100%;
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%; 
+}
+
+#list3 button {
+    font-size: larger;
+}
+
+#containerbelow {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #container {
+        margin: 10% 5%;
+        padding: 10%;
+        padding-bottom: 20%;
+        display: flow-root;
+        overflow: scroll;
+    }
+    
+    #gif {
+        margin: 0 auto;
+        width: 150px;
+        height: 150px;
+    }
+    
+    #title, #answer {
+        margin: 0 auto;
+        text-align: center;
+        font-size: medium;
+    }
+    
+    #list1, #list2, #list3 {
+        grid-template-columns: repeat(2, 150px);
+        gap: 5%;
+        margin: 0 auto;
+    }
+    
+    #btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #switch, #backswitch {
+        margin: 0 auto 3% auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #container {
+        margin: 5%;
+        padding: 20%;
+    }
+    
+    #gif {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #list1, #list2, #list3 {
+        grid-template-columns: 1fr;
+        gap: 2%;
+    }
+    
+    #btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
